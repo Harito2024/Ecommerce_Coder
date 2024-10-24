@@ -12,6 +12,11 @@ export const ENV = {
     ADDRESS: "addresses",
     GAME: "games",
     WISHLIST: "wishlists",
+    PAYMENT_ORDER: "payment-order",
+    ORDER: "orders",
   },
   TOKEN: "token",
+  CART: "cart",
+  STRIPE_TOKEN:
+    "pk_test_51Q7S17FHuzrnHvqx8aQo4RFaE3cWIyUaK48BRgeCSnARlTUJtyTfXPgl9QsWbDC1r0fAhHrp2qe4FSvPE87BHaKx004uY1ahx9",
 };

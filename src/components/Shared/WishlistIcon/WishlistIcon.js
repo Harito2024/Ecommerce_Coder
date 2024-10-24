@@ -14,7 +14,6 @@ export function WishlistIcon(props) {
     (async () => {
       try {
         const response = await wishlistCtrol.check(user.id, gameId);
-        console.log(response);
         setHasWishlist(response);
       } catch (error) {
         setHasWishlist(false);
